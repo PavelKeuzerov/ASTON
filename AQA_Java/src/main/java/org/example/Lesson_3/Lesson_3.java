@@ -2,7 +2,7 @@ package org.example.Lesson_3;
 
 import java.util.Arrays;
 
-public class Main {
+public class Lesson_3 {
     public static void main(String[] args) {
         System.out.println(betweenSum10and20(11, 4));
         numberPositiveOrNegative(-2);
