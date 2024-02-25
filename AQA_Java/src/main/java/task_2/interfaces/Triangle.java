@@ -3,8 +3,8 @@ package task_2.interfaces;
 public interface Triangle {
     double calculationArea();
 
-    default double calculationPerimeter(int side_a, int side_b, int side_c) {
-        return side_a + side_b + side_c;
+    default double calculationPerimeter(int sideA, int sideB, int sideC) {
+        return sideA + sideB + sideC;
     }
 
     void setColorFill(String colorFill);

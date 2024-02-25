@@ -22,7 +22,7 @@ public class AppRunner {
         System.out.println("Number of cats -  " + Cat.getCatCount());
 
         Food food = new Food();
-        food.addFood(11);
+        food.addFood(99);
 
         Cat[] cats = new Cat[3];
         cats[0] = new Cat("myrzik");

@@ -1,21 +1,21 @@
 package task_2;
 
 public class Rectangle implements task_2.interfaces.Rectangle {
-    private int side_a;
-    private int side_b;
+    private int sideA;
+    private int sideB;
     String colorFill;
     String colorBorder;
 
     public Rectangle(int side_a, int side_b, String colorFill, String colorBorder) {
-        this.side_a = side_a;
-        this.side_b = side_b;
+        this.sideA = sideA;
+        this.sideB = sideB;
         this.colorFill = colorFill;
         this.colorBorder = colorBorder;
     }
 
     @Override
     public double calculationArea() {
-        return side_a * side_b;
+        return sideA * sideB;
     }
 
     @Override
@@ -31,8 +31,8 @@ public class Rectangle implements task_2.interfaces.Rectangle {
     @Override
     public String toString() {
         return "Rectangle{" +
-                "side_a=" + side_a +
-                ", side_b=" + side_b +
+                "side_a=" + sideA +
+                ", side_b=" + sideB +
                 ", colorFill='" + colorFill + '\'' +
                 ", colorBorder='" + colorBorder + '\'' +
                 '}';
