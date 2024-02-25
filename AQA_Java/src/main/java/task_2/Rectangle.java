@@ -6,7 +6,7 @@ public class Rectangle implements task_2.interfaces.Rectangle {
     String colorFill;
     String colorBorder;
 
-    public Rectangle(int side_a, int side_b, String colorFill, String colorBorder) {
+    public Rectangle(int sideA, int sideB, String colorFill, String colorBorder) {
         this.sideA = sideA;
         this.sideB = sideB;
         this.colorFill = colorFill;
