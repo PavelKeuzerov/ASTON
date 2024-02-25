@@ -2,8 +2,10 @@ package task_1;
 
 public class Animal {
     private static int animalCount;
+    public String name;
 
-    public Animal() {
+    public Animal(String name) {
+        this.name = name;
         animalCount++;
     }
 

@@ -5,7 +5,9 @@ public class Dog extends Animal {
     public static int DOG_MAX_SWIM = 10;
     private static int dogCount;
 
-    public Dog() {
+    public Dog(String name) {
+        super (name);
+        this.name = name;
         dogCount++;
     }
 
@@ -16,7 +18,7 @@ public class Dog extends Animal {
     @Override
     public void run(int distance) {
         if (distance < DOG_MAX_RUN && distance > 0) {
-            System.out.println("Dog ran " + distance + " m.");
+            System.out.println(name + " Dog ran " + distance + " m.");
         } else if (distance < 0 ) {
             System.out.println("Incorrect data " + distance + " m.");
         } else if  (distance == 0) {
