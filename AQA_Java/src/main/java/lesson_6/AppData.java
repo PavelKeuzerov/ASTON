@@ -54,8 +54,8 @@ public class AppData {
             reader.close();
 
             int[][] data = new int[numRows][numCols];
-            reader = new BufferedReader(new FileReader(fileName)); //открываем файл снова, чтобы начать с самого начала
-            reader.readLine(); //пропускаем строку заголовка
+            reader = new BufferedReader(new FileReader(fileName));
+            reader.readLine();
             String line;
             int row = 0;
             while ((line = reader.readLine()) != null) {
