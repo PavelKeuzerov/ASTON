@@ -1,13 +1,12 @@
 package task_1;
 
 public class Cat extends Animal {
-    public static int CAT_MAX_RUN = 200;
+    private static final int CAT_MAX_RUN = 200;
     private static int catCount;
-    private boolean satiety;
+    private boolean satiety = true;
 
     public Cat(String name) {
         super(name);
-        this.name = name;
         catCount++;
     }
 
@@ -34,9 +33,9 @@ public class Cat extends Animal {
     }
 
     void eat(Food food, int quantityFood) {
-        if (!satiety && food.getQuantityFood() - quantityFood <= 0) {
+        if (satiety && food.getQuantityFood() - quantityFood <= 0) {
             System.out.println("The cat has nothing to eat");
-        } else if (!satiety) {
+        } else if (satiety) {
             food.setQuantityFood(food.getQuantityFood() - quantityFood);
             satiety = true;
             System.out.println("The cat has eaten and is resting");

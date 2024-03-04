@@ -1,13 +1,12 @@
 package task_1;
 
 public class Dog extends Animal {
-    public static int DOG_MAX_RUN = 500;
-    public static int DOG_MAX_SWIM = 10;
+    private static final int DOG_MAX_RUN = 500;
+    private static final int DOG_MAX_SWIM = 10;
     private static int dogCount;
 
     public Dog(String name) {
         super (name);
-        this.name = name;
         dogCount++;
     }
 

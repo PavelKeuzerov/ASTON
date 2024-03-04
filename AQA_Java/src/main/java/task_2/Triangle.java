@@ -1,6 +1,6 @@
 package task_2;
 
-public class Triangle implements task_2.interfaces.Triangle {
+public class Triangle implements FormulaAndColorFigures {
     private int sideA;
     private int sideB;
     private int sideC;
@@ -34,6 +34,11 @@ public class Triangle implements task_2.interfaces.Triangle {
     }
 
     @Override
+    public double calculationPerimeter() {
+        return sideA + sideB + sideC;
+    }
+
+    @Override
     public void setColorFill(String colorFill) {
         this.colorFill = colorFill;
     }
@@ -52,15 +57,9 @@ public class Triangle implements task_2.interfaces.Triangle {
                 ", possible=" + possible +
                 ", colorFill='" + colorFill + '\'' +
                 ", colorBorder='" + colorBorder + '\'' +
+                ", calculatePerimeter='" + calculationPerimeter() + '\'' +
+                ", calculateSquare='" + calculationArea() + '\'' +
                 '}';
-    }
-
-    @Override
-    public void info() {
-        System.out.println("Perimeter of a triangle : " + calculationPerimeter(2,4,5));
-        System.out.println("Area of a triangle: " + calculationArea());
-        System.out.println("Color fill: " + colorFill);
-        System.out.println("Color border : " + colorBorder);
     }
 }
 
