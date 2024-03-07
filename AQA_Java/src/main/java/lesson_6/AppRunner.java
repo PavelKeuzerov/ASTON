@@ -15,7 +15,7 @@ public class AppRunner {
         AppData loadedData = AppData.load("data.csv");
         if (loadedData != null) {
             for (String element : loadedData.header) {
-                System.out.print(element + " ");
+                System.out.print(element + "; ");
             }
             System.out.println();
             for (int[] row : loadedData.data) {
