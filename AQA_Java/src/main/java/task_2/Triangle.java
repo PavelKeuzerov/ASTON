@@ -1,36 +1,25 @@
 package task_2;
 
-public class Triangle implements FormulaAndColorFigures {
-    private int sideA;
-    private int sideB;
-    private int sideC;
-    boolean possible;
-    String colorFill;
-    String colorBorder;
+public class Triangle extends Figure  {
+    private final int sideA;
+    private final int sideB;
+    private final int sideC;
+    private String colorFill;
+    private String colorBorder;
+
 
     public Triangle(int sideA, int sideB, int sideC, String colorFill, String colorBorder) {
-        possible = sideA + sideB > sideC && sideC + sideB > sideA &&
-                sideA + sideC > sideB;
-        if (possible) {
-            this.sideA = sideA;
-            this.sideB = sideB;
-            this.sideC = sideC;
-            setColorFill(colorFill);
-            setColorBorder(colorBorder);
-
-        } else {
-            System.out.println("It is not possible to construct a triangle");
-        }
+        this.sideA = sideA;
+        this.sideB = sideB;
+        this.sideC = sideC;
+        ColorFill(colorFill);
+        ColorBorder(colorBorder);
     }
 
     @Override
     public double calculationArea() {
-        double area = 0;
-        if (possible) {
             double p = (double) (sideA + sideB + sideC) / 2;
-            area = Math.sqrt(p * (p - sideA) * (p - sideB) * (p - sideC));
-        }
-        return area;
+            return Math.sqrt(p * (p - sideA) * (p - sideB) * (p - sideC));
     }
 
     @Override
@@ -39,12 +28,12 @@ public class Triangle implements FormulaAndColorFigures {
     }
 
     @Override
-    public void setColorFill(String colorFill) {
+    public void ColorFill(String colorFill) {
         this.colorFill = colorFill;
     }
 
     @Override
-    public void setColorBorder(String colorBorder) {
+    public void ColorBorder(String colorBorder) {
         this.colorBorder = colorBorder;
     }
 
@@ -54,7 +43,6 @@ public class Triangle implements FormulaAndColorFigures {
                 "side_a=" + sideA +
                 ", side_b=" + sideB +
                 ", side_c=" + sideC +
-                ", possible=" + possible +
                 ", colorFill='" + colorFill + '\'' +
                 ", colorBorder='" + colorBorder + '\'' +
                 ", calculatePerimeter='" + calculationPerimeter() + '\'' +

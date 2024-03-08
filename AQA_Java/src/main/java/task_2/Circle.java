@@ -1,14 +1,14 @@
 package task_2;
 
-public class Circle implements FormulaAndColorFigures {
+public class Circle extends Figure {
     private final int radius;
-    String colorFill;
-    String colorBorder;
+    private String colorFill;
+    private String colorBorder;
 
     public Circle(int radius, String colorFill, String colorBorder) {
         this.radius = radius;
-        setColorFill(colorFill);
-        setColorBorder(colorBorder);
+        ColorFill(colorFill);
+        ColorBorder(colorBorder);
     }
 
     @Override
@@ -22,13 +22,13 @@ public class Circle implements FormulaAndColorFigures {
     }
 
     @Override
-    public void setColorFill(String colorFill) {
+    public void ColorFill(String colorFill) {
         this.colorFill = colorFill;
 
     }
 
     @Override
-    public void setColorBorder(String colorBorder) {
+    public void ColorBorder(String colorBorder) {
         this.colorBorder = colorBorder;
 
     }

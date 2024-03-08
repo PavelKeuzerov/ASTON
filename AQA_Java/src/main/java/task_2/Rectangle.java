@@ -1,16 +1,17 @@
 package task_2;
 
-public class Rectangle implements FormulaAndColorFigures {
+public class Rectangle extends Figure {
     private final int sideA;
     private final int sideB;
-    String colorFill;
-    String colorBorder;
+    private String colorFill;
+    private String colorBorder;
+
 
     public Rectangle(int sideA, int sideB, String colorFill, String colorBorder) {
         this.sideA = sideA;
         this.sideB = sideB;
-        setColorFill(colorFill);
-        setColorBorder(colorBorder);
+        ColorFill(colorFill);
+        ColorBorder(colorBorder);
     }
 
     @Override
@@ -24,13 +25,13 @@ public class Rectangle implements FormulaAndColorFigures {
     }
 
     @Override
-    public void setColorFill(String colorFill) {
+    public void ColorFill(String colorFill) {
         this.colorFill = colorFill;
 
     }
 
     @Override
-    public void setColorBorder(String colorBorder) {
+    public void ColorBorder(String colorBorder) {
         this.colorBorder = colorBorder;
 
     }
