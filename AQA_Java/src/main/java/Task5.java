@@ -18,7 +18,6 @@ public class Task5 {
         }
 
         System.out.println("Logins starting with f - " + logins.stream()
-                .filter(o -> o.startsWith("f"))
-                .collect(Collectors.toList()));
+                .filter(o -> o.startsWith("f")).collect(Collectors.toList()));
     }
 }
