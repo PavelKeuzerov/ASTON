@@ -1,9 +1,6 @@
 package lesson_8;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class Words {
     public static void main(String[] args) {
@@ -11,14 +8,9 @@ public class Words {
                 "head", "stomach", "arm", "eyes", "leg",
                 "teeth", "neck", "mouth", "neck", "mouth"};
 
-        Set<String> uniqueWords = new HashSet<>();
-        for (String w : words) {
-            uniqueWords.add(w);
-        }
+        Set<String> uniqueWords = new HashSet<>(Arrays.asList(words));
 
-        for (String word : uniqueWords) {
-            System.out.println(word);
-        }
+        System.out.println("Unique words " + uniqueWords);
 
         Map<String, Integer> wordCounts = new HashMap<>();
         for (String word : words) {
@@ -33,6 +25,7 @@ public class Words {
         for (String word : wordCounts.keySet()) {
             int count = wordCounts.get(word);
             System.out.println("repeated word: " + word + " - " + count + " time");
+
         }
     }
 }
