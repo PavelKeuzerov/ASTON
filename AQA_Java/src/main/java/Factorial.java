@@ -3,7 +3,7 @@ public class Factorial {
         System.out.println(calculateFactorial(5));
     }
 
-    static int calculateFactorial(int n) {
+    public static int calculateFactorial(int n) {
         int result = 1;
         for (int i = 1; i <= n; i++) {
             result = result * i;
