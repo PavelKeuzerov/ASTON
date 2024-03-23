@@ -57,13 +57,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/AQA_Java/src" />
       <recent name="$PROJECT_DIR$/AQA_Java/src/lesson_13" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="untitled" />
+      <module name="AQA_Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
