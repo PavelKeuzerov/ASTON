@@ -27,17 +27,17 @@
     <setting file="file://$PROJECT_DIR$/AQA_Java/pom.xml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Factorial.executor": "Run",
-    "TestNG.FactorialTest.exceptionTestTwo.executor": "Run",
-    "TestNG.FactorialTest.exceptionTesting.executor": "Run",
-    "TestNG.FactorialTest.executor": "Run",
-    "TestNG.FactorialTest.negativeTest.executor": "Run",
-    "git-widget-placeholder": "lesson__12__testng",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FactorialTest.exceptionTestTwo.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FactorialTest.exceptionTesting.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FactorialTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FactorialTest.negativeTest.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lesson__12__testng&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.FactorialTest">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Factorial" />
