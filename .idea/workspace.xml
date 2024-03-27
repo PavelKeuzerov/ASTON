@@ -5,19 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6848c2ac-7a3a-4376-918b-c29f9de07fe2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AQA_Java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/src/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AQA_Java/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AQA_Java/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AQA_Java/src/main/java/org/example/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/target/classes/org/example/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -29,13 +35,10 @@
   </component>
   <component name="GitLabMergeRequestsSettings">{}</component>
   <component name="GithubPullRequestsUISettings">{}</component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/AQA_Java/pom.xml" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="KubernetesApiProvider">{}</component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2e6SqQ10PkjaNqM2qlekKBtQ9WC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,14 +47,30 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.AppTest,logoPaySystemsDisplayTest and 2 more.executor": "Run",
+    "JUnit.AppTest.CheckingContinueButton.executor": "Run",
+    "JUnit.AppTest.buttonContinueClickTest.executor": "Run",
+    "JUnit.AppTest.executor": "Run",
+    "JUnit.AppTest.nameOfPaymentTitleTest.executor": "Run",
+    "JUnit.AppTest.serviceDetailsTest.executor": "Run",
+    "Maven.AQA_Java [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "TestNG.AppTest.executor": "Run",
+    "TestNG.RunnerTest.executor": "Run",
+    "git-widget-placeholder": "lesson__13",
     "kotlin-language-version-configured": "true",
+    "last_directory_selection": "/home/pavel/IdeaProjects/ASTON/AQA_Java/src/test/java",
+    "last_opened_file_path": "/home/pavel/IdeaProjects/ASTON",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/pavel/IdeaProjects/ASTON/untitled/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -60,32 +79,97 @@
       <recent name="$PROJECT_DIR$/AQA_Java/src" />
       <recent name="$PROJECT_DIR$/AQA_Java/src/lesson_13" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+  <component name="RunManager" selected="JUnit.AppTest">
+    <configuration name="AppTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.CheckingContinueButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="CheckingContinueButton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.buttonContinueClickTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="buttonContinueClickTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.serviceDetailsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="serviceDetailsTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.CheckingContinueButton" />
+        <item itemvalue="JUnit.AppTest (1)" />
+        <item itemvalue="JUnit.AppTest.buttonContinueClickTest" />
+        <item itemvalue="JUnit.AppTest.serviceDetailsTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.127" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.127" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.158" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.158" />
       </set>
     </attachedChunks>
   </component>
@@ -97,7 +181,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711223726706</updated>
-      <workItem from="1711223729550" duration="303000" />
+      <workItem from="1711223729550" duration="1675000" />
+      <workItem from="1711385280484" duration="11563000" />
     </task>
     <servers />
   </component>
