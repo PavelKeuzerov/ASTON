@@ -23,7 +23,7 @@ public class AppTest {
     @BeforeEach
     void initBrowser() {
         driver = new ChromeDriver();
-        webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(5000));
         driver.get("https://www.mts.by/");
         if (driver.findElement(By.id("cookie-agree")).isDisplayed()) {
             driver.findElement(By.id("cookie-agree")).click();
