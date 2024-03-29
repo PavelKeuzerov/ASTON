@@ -50,7 +50,7 @@ public class AppTest {
     }
 
     @Test
-    public void CheckingContinueButton() throws InterruptedException {
+    public void CheckingContinueButton() {
         driver.findElement(By.id("connection-phone")).sendKeys("297777777");
         driver.findElement(By.id("connection-sum")).sendKeys("2");
         driver.findElement(By.xpath("//button[contains(.,'Продолжить')][1]")).click();
