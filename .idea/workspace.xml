@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6848c2ac-7a3a-4376-918b-c29f9de07fe2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AQA_Java/src/test/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AQA_Java/target/test-classes/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/target/test-classes/AppTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="6848c2ac-7a3a-4376-918b-c29f9de07fe2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,35 +37,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "JUnit.AppTest,logoPaySystemsDisplayTest and 2 more.executor": "Run",
-    "JUnit.AppTest.CheckingContinueButton.executor": "Run",
-    "JUnit.AppTest.buttonContinueClickTest.executor": "Run",
-    "JUnit.AppTest.executor": "Run",
-    "JUnit.AppTest.nameOfPaymentTitleTest.executor": "Run",
-    "JUnit.AppTest.serviceDetailsTest.executor": "Run",
-    "Maven.AQA_Java [clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.AppTest.executor": "Run",
-    "TestNG.RunnerTest.executor": "Run",
-    "git-widget-placeholder": "lesson__13",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "/home/pavel/IdeaProjects/ASTON/AQA_Java/src/test/java",
-    "last_opened_file_path": "/home/pavel/IdeaProjects/ASTON",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/pavel/IdeaProjects/ASTON/untitled/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest,logoPaySystemsDisplayTest and 2 more.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.CheckingContinueButton.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.buttonContinueClickTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.nameOfPaymentTitleTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.serviceDetailsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.AQA_Java [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.AppTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RunnerTest.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lesson__13&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/pavel/IdeaProjects/ASTON/AQA_Java/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/pavel/IdeaProjects/ASTON&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/pavel/IdeaProjects/ASTON/untitled/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/AQA_Java/src" />
@@ -178,7 +174,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711223726706</updated>
       <workItem from="1711223729550" duration="1675000" />
-      <workItem from="1711385280484" duration="11985000" />
+      <workItem from="1711385280484" duration="12228000" />
     </task>
     <servers />
   </component>
