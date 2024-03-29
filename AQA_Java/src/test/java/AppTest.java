@@ -168,6 +168,7 @@ public class AppTest {
         WebElement button = driver.findElement(By.xpath("//*[@id=\"pay-connection\"]/button"));
         button.click();
 
+        driver.findElement(By.id("connection-sum")).sendKeys("2");
 
         new WebDriverWait(driver, Duration.ofSeconds(5))
                 .until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".bepaid-iframe")));
@@ -209,11 +210,19 @@ public class AppTest {
             }
         }
 
-        List<WebElement> icons = cardRoot.findElements(By.tagName("img"));
+//        List<WebElement> icons = cardRoot.findElements(By.tagName("img"));
+//
+//        for (WebElement icon : icons) {
+//            if (icon.getAttribute("class").equals("ng-tns-c53-0 ng-star-inserted")) {
+//                Assert.assertFalse(icon.getAttribute("src").isEmpty());
+//            }
+//        }
 
-        for (WebElement icon : icons) {
-            if (icon.getAttribute("class").equals("ng-tns-c53-0 ng-star-inserted")) {
-                Assert.assertFalse(icon.getAttribute("src").isEmpty());
+        List<WebElement> elementList = driver.findElements(By.xpath("//img[contains(@src, '/pay')]"));
+        for (WebElement we :
+                elementList) {
+            if (we.getAttribute("class").equals("ng-tns-c53-0 ng-star-inserted")) {
+                Assert.assertFalse(we.getAttribute("src").isEmpty());
             }
         }
     }
