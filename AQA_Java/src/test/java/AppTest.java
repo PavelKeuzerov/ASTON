@@ -36,9 +36,9 @@ public class AppTest {
     @Test
     public void CheckingLogos() {
         List<WebElement> elementList = driver.findElements(By.xpath("//img[contains(@src, '/pay')]"));
-        for (WebElement we :
+        for (WebElement img :
                 elementList) {
-            Assert.assertTrue(we.isDisplayed());
+            Assert.assertTrue(img.isDisplayed());
         }
     }
 

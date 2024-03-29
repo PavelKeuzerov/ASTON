@@ -85,7 +85,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AppTest">
+  <component name="RunManager" selected="TestNG.AppTest.CheckingLogos">
     <configuration name="AppTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
       <option name="PACKAGE_NAME" value="" />
@@ -133,11 +133,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.linkTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.CheckingLogos" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="linkTest" />
+      <option name="METHOD_NAME" value="CheckingLogos" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AppTest.CheckingLogos" />
         <item itemvalue="TestNG.AppTest" />
         <item itemvalue="TestNG.AppTest.CheckingContinueButton" />
         <item itemvalue="TestNG.AppTest.BlockCheck" />
         <item itemvalue="TestNG.AppTest.CheckMoreAboutServices" />
-        <item itemvalue="TestNG.AppTest.linkTest" />
       </list>
     </recent_temporary>
   </component>
