@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6848c2ac-7a3a-4376-918b-c29f9de07fe2" name="Changes" comment="" />
+    <list default="true" id="6848c2ac-7a3a-4376-918b-c29f9de07fe2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/src/main/java/org/example/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/src/test/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/target/test-classes/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/target/test-classes/AppTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,35 +43,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest,logoPaySystemsDisplayTest and 2 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest.CheckingContinueButton.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest.buttonContinueClickTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest.nameOfPaymentTitleTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest.serviceDetailsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.AQA_Java [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.AppTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.RunnerTest.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;lesson__13&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;/home/pavel/IdeaProjects/ASTON/AQA_Java/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/pavel/IdeaProjects/ASTON&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/pavel/IdeaProjects/ASTON/untitled/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.AppTest,logoPaySystemsDisplayTest and 2 more.executor": "Run",
+    "JUnit.AppTest.CheckingContinueButton.executor": "Run",
+    "JUnit.AppTest.buttonContinueClickTest.executor": "Run",
+    "JUnit.AppTest.executor": "Run",
+    "JUnit.AppTest.nameOfPaymentTitleTest.executor": "Run",
+    "JUnit.AppTest.serviceDetailsTest.executor": "Run",
+    "Maven.AQA_Java [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AppTest.BlockCheck.executor": "Run",
+    "TestNG.AppTest.CheckMoreAboutServices.executor": "Run",
+    "TestNG.AppTest.CheckingContinueButton.executor": "Run",
+    "TestNG.AppTest.executor": "Run",
+    "TestNG.AppTest.linkTest.executor": "Run",
+    "TestNG.AppTest.testForm.executor": "Run",
+    "TestNG.AppTest.testLogos.executor": "Run",
+    "TestNG.AppTest.testTitle.executor": "Run",
+    "TestNG.RunnerTest.executor": "Run",
+    "git-widget-placeholder": "lesson__13",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "/home/pavel/IdeaProjects/ASTON/AQA_Java/src/test/java",
+    "last_opened_file_path": "/home/pavel/IdeaProjects/ASTON",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/pavel/IdeaProjects/ASTON/untitled/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/AQA_Java/src" />
@@ -75,85 +88,73 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
-    <configuration name="AppTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AppTest">
+    <configuration name="AppTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.BlockCheck" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="BlockCheck" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.CheckingContinueButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.CheckMoreAboutServices" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="CheckMoreAboutServices" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.CheckingContinueButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppTest" />
       <option name="METHOD_NAME" value="CheckingContinueButton" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.buttonContinueClickTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.linkTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="buttonContinueClickTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.serviceDetailsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AQA_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="serviceDetailsTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" value="linkTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest.CheckingContinueButton" />
-        <item itemvalue="JUnit.AppTest (1)" />
-        <item itemvalue="JUnit.AppTest.buttonContinueClickTest" />
-        <item itemvalue="JUnit.AppTest.serviceDetailsTest" />
+        <item itemvalue="TestNG.AppTest" />
+        <item itemvalue="TestNG.AppTest.CheckingContinueButton" />
+        <item itemvalue="TestNG.AppTest.BlockCheck" />
+        <item itemvalue="TestNG.AppTest.CheckMoreAboutServices" />
+        <item itemvalue="TestNG.AppTest.linkTest" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +176,7 @@
       <updated>1711223726706</updated>
       <workItem from="1711223729550" duration="1675000" />
       <workItem from="1711385280484" duration="12228000" />
+      <workItem from="1711724741758" duration="5801000" />
     </task>
     <servers />
   </component>
