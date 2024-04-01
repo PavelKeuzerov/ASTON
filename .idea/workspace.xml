@@ -44,41 +44,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.AppTest.communicationServicesTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AppTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AppTest.task1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AppTest.task2.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AppTest.task3.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AppTest.task4.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AppTest.task5.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AppTest.test12.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AppTest.testDropDownList.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AppTest.testFormFrame.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;lesson__14&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AppTest.aTest.executor": "Run",
+    "TestNG.AppTest.checkServicesConnections.executor": "Run",
+    "TestNG.AppTest.communicationServicesTest.executor": "Debug",
+    "TestNG.AppTest.debtTest.executor": "Run",
+    "TestNG.AppTest.executor": "Run",
+    "TestNG.AppTest.moveToFrame.executor": "Run",
+    "TestNG.AppTest.task1.executor": "Run",
+    "TestNG.AppTest.task2.executor": "Run",
+    "TestNG.AppTest.task3.executor": "Run",
+    "TestNG.AppTest.task4.executor": "Run",
+    "TestNG.AppTest.task5.executor": "Run",
+    "TestNG.AppTest.test1.executor": "Run",
+    "TestNG.AppTest.test12.executor": "Run",
+    "TestNG.AppTest.testDropDownList.executor": "Run",
+    "TestNG.AppTest.testFormFrame.executor": "Run",
+    "git-widget-placeholder": "lesson__14",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/AQA_Java/src" />
       <recent name="$PROJECT_DIR$/AQA_Java/src/lesson_13" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AppTest.test12">
-    <configuration name="AppTest.task2" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AppTest.checkServicesConnections">
+    <configuration name="AppTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="task2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.checkServicesConnections" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="checkServicesConnections" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -86,11 +102,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.task3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.communicationServicesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="task3" />
+      <option name="METHOD_NAME" value="communicationServicesTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -98,11 +114,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.task4" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.debtTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="task4" />
+      <option name="METHOD_NAME" value="debtTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -110,23 +126,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.task5" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.moveToFrame" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="task5" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.test12" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA_Java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="test12" />
+      <option name="METHOD_NAME" value="moveToFrame" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AppTest.test12" />
-        <item itemvalue="TestNG.AppTest.task5" />
-        <item itemvalue="TestNG.AppTest.task4" />
-        <item itemvalue="TestNG.AppTest.task3" />
-        <item itemvalue="TestNG.AppTest.task2" />
+        <item itemvalue="TestNG.AppTest.checkServicesConnections" />
+        <item itemvalue="TestNG.AppTest.moveToFrame" />
+        <item itemvalue="TestNG.AppTest.debtTest" />
+        <item itemvalue="TestNG.AppTest.communicationServicesTest" />
+        <item itemvalue="TestNG.AppTest" />
       </list>
     </recent_temporary>
   </component>
