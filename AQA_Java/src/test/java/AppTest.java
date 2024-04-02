@@ -16,7 +16,7 @@ public class AppTest {
     WebDriverWait webDriverWait;
 
     @BeforeMethod
-    void initBrowser() {
+    void initBrowserTest() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(5));
@@ -27,7 +27,7 @@ public class AppTest {
     }
 
     @Test
-    public void CommunicationServices() {
+    public void CommunicationServicesTest() {
         driver.findElement
             (By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[1]/div[1]/div[2]/button"))
                 .click();
@@ -49,7 +49,7 @@ public class AppTest {
     }
 
     @Test
-    public void homeInternet() {
+    public void homeInternetTest() {
         driver.findElement
              (By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[1]/div[1]/div[2]/button"))
                 .click();
@@ -71,7 +71,7 @@ public class AppTest {
     }
 
     @Test
-    public void Installment() {
+    public void InstallmentTest() {
         driver.findElement
             (By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[1]/div[1]/div[2]/button"))
                 .click();
@@ -93,7 +93,7 @@ public class AppTest {
     }
 
     @Test
-    public void Debt() {
+    public void DebtTest() {
         driver.findElement
             (By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[1]/div[1]/div[2]/button"))
                 .click();
@@ -116,7 +116,7 @@ public class AppTest {
 
 
     @Test
-    public void checkServicesConnections() {
+    public void checkServicesConnectionsTest() {
         driver.findElement
             (By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[1]/div[1]/div[2]/button"))
                 .click();
