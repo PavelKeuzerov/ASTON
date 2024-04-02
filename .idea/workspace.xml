@@ -48,11 +48,15 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AppTest.CommunicationServices.executor": "Run",
+    "TestNG.AppTest.Debt.executor": "Run",
+    "TestNG.AppTest.Installment.executor": "Run",
     "TestNG.AppTest.aTest.executor": "Run",
     "TestNG.AppTest.checkServicesConnections.executor": "Run",
-    "TestNG.AppTest.communicationServicesTest.executor": "Debug",
+    "TestNG.AppTest.communicationServicesTest.executor": "Run",
     "TestNG.AppTest.debtTest.executor": "Run",
     "TestNG.AppTest.executor": "Run",
+    "TestNG.AppTest.homeInternet.executor": "Run",
     "TestNG.AppTest.moveToFrame.executor": "Run",
     "TestNG.AppTest.task1.executor": "Run",
     "TestNG.AppTest.task2.executor": "Run",
@@ -78,7 +82,7 @@
       <recent name="$PROJECT_DIR$/AQA_Java/src/lesson_13" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AppTest.checkServicesConnections">
+  <component name="RunManager" selected="TestNG.AppTest">
     <configuration name="AppTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
       <option name="PACKAGE_NAME" value="" />
@@ -90,11 +94,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.checkServicesConnections" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.CommunicationServices" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="checkServicesConnections" />
+      <option name="METHOD_NAME" value="CommunicationServices" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -102,11 +106,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.communicationServicesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.Debt" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="communicationServicesTest" />
+      <option name="METHOD_NAME" value="Debt" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -114,11 +118,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.debtTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.Installment" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="debtTest" />
+      <option name="METHOD_NAME" value="Installment" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -126,11 +130,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.moveToFrame" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.homeInternet" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="moveToFrame" />
+      <option name="METHOD_NAME" value="homeInternet" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AppTest.checkServicesConnections" />
-        <item itemvalue="TestNG.AppTest.moveToFrame" />
-        <item itemvalue="TestNG.AppTest.debtTest" />
-        <item itemvalue="TestNG.AppTest.communicationServicesTest" />
         <item itemvalue="TestNG.AppTest" />
+        <item itemvalue="TestNG.AppTest.Debt" />
+        <item itemvalue="TestNG.AppTest.Installment" />
+        <item itemvalue="TestNG.AppTest.homeInternet" />
+        <item itemvalue="TestNG.AppTest.CommunicationServices" />
       </list>
     </recent_temporary>
   </component>
