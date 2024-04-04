@@ -44,62 +44,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.AppTest.CommunicationServices.executor": "Run",
-    "TestNG.AppTest.Debt.executor": "Run",
-    "TestNG.AppTest.Installment.executor": "Run",
-    "TestNG.AppTest.aTest.executor": "Run",
-    "TestNG.AppTest.checkServicesConnections.executor": "Run",
-    "TestNG.AppTest.communicationServicesTest.executor": "Run",
-    "TestNG.AppTest.debtTest.executor": "Run",
-    "TestNG.AppTest.executor": "Run",
-    "TestNG.AppTest.homeInternet.executor": "Run",
-    "TestNG.AppTest.moveToFrame.executor": "Run",
-    "TestNG.AppTest.task1.executor": "Run",
-    "TestNG.AppTest.task2.executor": "Run",
-    "TestNG.AppTest.task3.executor": "Run",
-    "TestNG.AppTest.task4.executor": "Run",
-    "TestNG.AppTest.task5.executor": "Run",
-    "TestNG.AppTest.test1.executor": "Run",
-    "TestNG.AppTest.test12.executor": "Run",
-    "TestNG.AppTest.testDropDownList.executor": "Run",
-    "TestNG.AppTest.testFormFrame.executor": "Run",
-    "git-widget-placeholder": "lesson__14",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.AppTest.CommunicationServices.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AppTest.Debt.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AppTest.Installment.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AppTest.aTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AppTest.checkServicesConnections.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AppTest.communicationServicesTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AppTest.debtTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AppTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AppTest.homeInternet.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AppTest.moveToFrame.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AppTest.task1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AppTest.task2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AppTest.task3.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AppTest.task4.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AppTest.task5.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AppTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AppTest.test12.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AppTest.testDropDownList.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AppTest.testFormFrame.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lesson__14&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/AQA_Java/src" />
       <recent name="$PROJECT_DIR$/AQA_Java/src/lesson_13" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AppTest">
+  <component name="RunManager" selected="TestNG.AppTest.checkServicesConnectionsTest">
     <configuration name="AppTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.CommunicationServices" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA_Java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="CommunicationServices" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -130,11 +118,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.homeInternet" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.checkServicesConnectionsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="homeInternet" />
+      <option name="METHOD_NAME" value="checkServicesConnectionsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.communicationServicesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="communicationServicesTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AppTest.checkServicesConnectionsTest" />
         <item itemvalue="TestNG.AppTest" />
+        <item itemvalue="TestNG.AppTest.communicationServicesTest" />
         <item itemvalue="TestNG.AppTest.Debt" />
         <item itemvalue="TestNG.AppTest.Installment" />
-        <item itemvalue="TestNG.AppTest.homeInternet" />
-        <item itemvalue="TestNG.AppTest.CommunicationServices" />
       </list>
     </recent_temporary>
   </component>

@@ -26,8 +26,8 @@ public class AppTest {
         }
     }
 
-    @Test
-    public void CommunicationServicesTest() {
+    @Test (description = "checking the operation of the communication service link")
+    public void communicationServicesTest() {
         driver.findElement
             (By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[1]/div[1]/div[2]/button"))
                 .click();
@@ -48,7 +48,7 @@ public class AppTest {
         Assert.assertEquals(emailPlaceHolderText, "E-mail для отправки чека");
     }
 
-    @Test
+    @Test (description = "checking the operation of the home internet link")
     public void homeInternetTest() {
         driver.findElement
              (By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[1]/div[1]/div[2]/button"))
@@ -70,8 +70,8 @@ public class AppTest {
         Assert.assertEquals(emailPlaceholderText, "E-mail для отправки чека");
     }
 
-    @Test
-    public void InstallmentTest() {
+    @Test (description = "checking the link in installments")
+    public void installmentTest() {
         driver.findElement
             (By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[1]/div[1]/div[2]/button"))
                 .click();
@@ -92,8 +92,8 @@ public class AppTest {
         Assert.assertEquals(emailPlaceholderText, "E-mail для отправки чека");
     }
 
-    @Test
-    public void DebtTest() {
+    @Test (description = "checking the link operation debt")
+    public void debtTest() {
         driver.findElement
             (By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[1]/div[1]/div[2]/button"))
                 .click();
@@ -115,7 +115,7 @@ public class AppTest {
     }
 
 
-    @Test
+    @Test (description = "checking the link \"Online replenishment without commission\"")
     public void checkServicesConnectionsTest() {
         driver.findElement
             (By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[1]/div[1]/div[2]/button"))
