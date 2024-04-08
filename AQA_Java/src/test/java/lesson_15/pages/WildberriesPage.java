@@ -17,14 +17,11 @@ public class WildberriesPage extends BaseView{
         super(driver);
     }
 
-    //Список всех товаров с MainPage, которые положены в корзину
     public List<List<String>> inputProduct = new ArrayList<>();
 
     @FindBy(xpath = "//div[@class=\"header__navbar-pc navbar-pc hide-mobile j-b-header-menu\"]/div")
     public List<WebElement> sideMenu;
 
-    //Проверяю наличие кнопок купить для каждого товара (из-за того, что из-за куки, я думаю, не всегда отображаются.
-    // Очистить не смог)
     @FindBy(xpath = "//a[@class = 'product-card__add-basket j-add-to-basket btn-main']")
     public List<WebElement> addToBasketButtonList;
 
@@ -39,9 +36,7 @@ public class WildberriesPage extends BaseView{
         mainPageProductObject.get(number)
                 .findElement(By.xpath("div/p/a[contains(@class ,'product-card__add-basket')]"))
                 .click();
-        //Жду появления таблицы размеров
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
-        //Проверяю появилась ли
         if (!driver.findElements(By.xpath("//div[@class = 'popup popup-list-of-sizes shown slideUp']"))
                 .isEmpty()) {
             driver.findElement(By.xpath("(//li[@class = 'sizes-list__item'])[1]")).click();

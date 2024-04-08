@@ -13,7 +13,7 @@ import java.time.Duration;
 
 public class BaseTest {
     protected WebDriver driver = WebDriverManager.chromedriver().create();
-    protected WildberriesPage mainPage = new WildberriesPage(driver);
+    protected WildberriesPage wildberriesPage = new WildberriesPage(driver);
     protected BasketPage basketPage = new BasketPage(driver);
     protected WebDriverWait webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
@@ -21,15 +21,12 @@ public class BaseTest {
     void fillBasket() {
         WebDriverManager.chromedriver().clearDriverCache().setup();
         driver.manage().window().setSize(new Dimension(1300, 1000));
-//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        mainPage = new WildberriesPage(driver);
-        while (mainPage.addToBasketButtonList.isEmpty()) {
-            driver.get("https://www.wildberries.ru/");
-            mainPage = new WildberriesPage(driver);
-            webDriverWait.until(ExpectedConditions
-                    .visibilityOfElementLocated(By.xpath
-                            ("//div[@class='product-card__wrapper']")));
-        }
+        driver.get("https://www.wildberries.ru/");
+        wildberriesPage = new WildberriesPage(driver);
+        webDriverWait.until(ExpectedConditions
+                .visibilityOfElementLocated(By.xpath
+                        ("//div[@class='product-card__wrapper']")));
+
     }
 
     @AfterMethod

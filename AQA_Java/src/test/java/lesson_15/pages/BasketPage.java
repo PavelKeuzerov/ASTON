@@ -13,7 +13,7 @@ public class BasketPage extends BaseView {
     public BasketPage(WebDriver driver) {
         super(driver);
     }
-
+//
     @FindBy(xpath = "//div[contains(@class, 'list-item__wrap')]")
     public List<WebElement> basketItemsList;
 
@@ -21,13 +21,9 @@ public class BasketPage extends BaseView {
     public WebElement productInBasketCoast;
 
 
-    //Список продуктов в виде "Название", "Цена"
     public List<List<String>> inBasketProduct;
-
     public List<Integer> productPriceWithDiscountInBasket;
 
-    //Наполняю inBasketProduct значениями из List<WebElement> basketItemsList
-    // Если делать без метода, то работет плохо
     public void initInBasketProduct() {
         inBasketProduct =
                 basketItemsList.stream().map(b -> Arrays.asList(b.findElement(By.xpath("div/div/a/span")).getText(),

@@ -6,21 +6,21 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TitleAndPriceProductTest extends BaseTest {
+public class AppTest extends BaseTest {
     @Test (description = "Checking products on the main page and in the cart")
-    void priceAndProductsTest() {
-        mainPage.fillBasket();
-        basketPage = mainPage.binClick();
+    void productsTest() {
+        wildberriesPage.fillBasket();
+        basketPage = wildberriesPage.binClick();
         webDriverWait.until(ExpectedConditions
                 .visibilityOfElementLocated(By.xpath("//p[contains(@class, 'total line')]/span[2]")));
-        Assert.assertFalse(mainPage.inputProduct.isEmpty());
-    }
+        Assert.assertFalse(wildberriesPage.inputProduct.isEmpty());
 
-    @Test
-//    @DisplayName("Total sum in Basket Test")
-    void clickBasketButtonTest(){
-        mainPage.fillBasket();
-        basketPage = mainPage.binClick();
+    }
+// Тут у меня возникли проблемы незнаю куда лезть уже........
+    @Test (description = "Testing the total amount in the cart")
+    void basketTest(){
+        wildberriesPage.fillBasket();
+        basketPage = wildberriesPage.binClick();
         webDriverWait.until(ExpectedConditions
                 .visibilityOfElementLocated(By.xpath("//p[contains(@class, 'total line')]/span[2]")));
         basketPage.initInBasketProduct();
@@ -28,8 +28,4 @@ public class TitleAndPriceProductTest extends BaseTest {
                         .valueOf(basketPage.productInBasketCoast.getText().replaceAll("\\D", "")),
                 basketPage.productPriceWithDiscountInBasket.stream().mapToInt(o -> o).sum());
     }
-
-
-
-
 }
