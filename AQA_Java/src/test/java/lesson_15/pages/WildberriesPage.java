@@ -1,4 +1,4 @@
-package pages;
+package lesson_15.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,10 +10,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class MainPage extends BaseView{
-    MainPageProducts mainProducts = new MainPageProducts(driver);
+public class WildberriesPage extends BaseView{
+    WildberriesProducts mainProducts = new WildberriesProducts(driver);
 
-    public MainPage(WebDriver driver) {
+    public WildberriesPage(WebDriver driver) {
         super(driver);
     }
 

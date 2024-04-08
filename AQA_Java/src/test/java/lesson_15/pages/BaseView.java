@@ -1,4 +1,4 @@
-package pages;
+package lesson_15.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;

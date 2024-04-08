@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6848c2ac-7a3a-4376-918b-c29f9de07fe2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AQA_Java/src/main/java/pages/BaseView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA_Java/src/main/java/pages/BasketPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA_Java/src/main/java/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA_Java/src/main/java/pages/MainPageProducts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/pages/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/pages/TitleAndPriceProductTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AQA_Java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AQA_Java/target/classes/org/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AQA_Java/target/test-classes/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AQA_Java/target/test-classes/lesson_15/Pages/BasePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AQA_Java/target/test-classes/lesson_15/Pages/CartPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AQA_Java/target/test-classes/lesson_15/Pages/MainPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AQA_Java/target/test-classes/lesson_15/Pages/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/src/main/java/pages/BaseView.java" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_15/pages/BaseView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/src/main/java/pages/BasketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_15/pages/BasketPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_15/pages/WildberriesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/src/main/java/pages/MainPageProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_15/pages/WildberriesProducts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/src/test/java/pages/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/src/test/java/pages/TitleAndPriceProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/TitleAndPriceProductTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +67,7 @@
     "TestNG.TitleAndPriceProductTest.andPriceProductsTest.executor": "Run",
     "TestNG.TitleAndPriceProductTest.clickBasketButtonTest.executor": "Run",
     "TestNG.TitleAndPriceProductTest.executor": "Run",
+    "TestNG.TitleAndPriceProductTest.priceAndProductsTest.executor": "Run",
     "TestNG.TitleAndPriceProductTest.titleAndPriceProductsTest.executor": "Run",
     "TestNG.WBTest.chooseItemsFromCatalog.executor": "Run",
     "TestNG.WBTest.executor": "Run",
@@ -98,12 +92,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TitleAndPriceProductTest.andPriceProductsTest">
+  <component name="RunManager" selected="TestNG.TitleAndPriceProductTest.priceAndProductsTest">
     <configuration name="AddProductToBasketTest.clickBasketButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pages.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +115,12 @@
       <module name="AQA_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pages.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pages" />
-      <option name="MAIN_CLASS_NAME" value="pages.TitleAndPriceProductTest" />
+      <option name="MAIN_CLASS_NAME" value="TitleAndPriceProductTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -138,12 +132,12 @@
       <module name="AQA_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pages.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pages" />
-      <option name="MAIN_CLASS_NAME" value="pages.TitleAndPriceProductTest" />
+      <option name="MAIN_CLASS_NAME" value="TitleAndPriceProductTest" />
       <option name="METHOD_NAME" value="andPriceProductsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -156,12 +150,12 @@
       <module name="AQA_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pages.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pages" />
-      <option name="MAIN_CLASS_NAME" value="pages.TitleAndPriceProductTest" />
+      <option name="MAIN_CLASS_NAME" value="TitleAndPriceProductTest" />
       <option name="METHOD_NAME" value="clickBasketButtonTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -170,17 +164,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TitleAndPriceProductTest.titleAndPriceProductsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TitleAndPriceProductTest.priceAndProductsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pages" />
-      <option name="MAIN_CLASS_NAME" value="pages.TitleAndPriceProductTest" />
-      <option name="METHOD_NAME" value="titleAndPriceProductsTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TitleAndPriceProductTest" />
+      <option name="METHOD_NAME" value="priceAndProductsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -190,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TitleAndPriceProductTest.andPriceProductsTest" />
-        <item itemvalue="TestNG.TitleAndPriceProductTest.clickBasketButtonTest" />
+        <item itemvalue="TestNG.TitleAndPriceProductTest.priceAndProductsTest" />
         <item itemvalue="TestNG.TitleAndPriceProductTest" />
+        <item itemvalue="TestNG.TitleAndPriceProductTest.clickBasketButtonTest" />
+        <item itemvalue="TestNG.TitleAndPriceProductTest.andPriceProductsTest" />
         <item itemvalue="TestNG.AddProductToBasketTest.clickBasketButtonTest" />
-        <item itemvalue="TestNG.TitleAndPriceProductTest.titleAndPriceProductsTest" />
       </list>
     </recent_temporary>
   </component>

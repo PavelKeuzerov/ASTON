@@ -1,4 +1,4 @@
-package pages;
+package lesson_15.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -6,9 +6,9 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-public class MainPageProducts extends BaseView {
+public class WildberriesProducts extends BaseView {
 
-    public MainPageProducts(WebDriver driver) {
+    public WildberriesProducts(WebDriver driver) {
         super(driver);
     }
 

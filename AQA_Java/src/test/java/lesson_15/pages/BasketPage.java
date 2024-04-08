@@ -1,4 +1,4 @@
-package pages;
+package lesson_15.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -22,9 +22,9 @@ public class BasketPage extends BaseView {
 
 
     //Список продуктов в виде "Название", "Цена"
-    List<List<String>> inBasketProduct;
+    public List<List<String>> inBasketProduct;
 
-    List<Integer> productPriceWithDiscountInBasket;
+    public List<Integer> productPriceWithDiscountInBasket;
 
     //Наполняю inBasketProduct значениями из List<WebElement> basketItemsList
     // Если делать без метода, то работет плохо
