@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6848c2ac-7a3a-4376-918b-c29f9de07fe2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AQA_Java/src/main/java/pages/BaseView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AQA_Java/src/main/java/pages/BasketPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AQA_Java/src/main/java/pages/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AQA_Java/src/main/java/pages/MainPageProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/pages/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/pages/TitleAndPriceProductTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AQA_Java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/target/test-classes/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/target/test-classes/lesson_15/Pages/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/target/test-classes/lesson_15/Pages/CartPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/target/test-classes/lesson_15/Pages/MainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/target/test-classes/lesson_15/Pages/Product.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,16 +57,35 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.AddProductToBasketTest.clickBasketButtonTest.executor": "Debug",
+    "JUnit.AddProductToBasketTest.executor": "Run",
+    "JUnit.TitleAndPriceProductTest.executor": "Run",
+    "JUnit.TitleAndPriceProductTest.titleAndPriceProductsTest.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AddProductToBasketTest.clickBasketButtonTest.executor": "Run",
+    "TestNG.AddProductToBasketTest.executor": "Run",
     "TestNG.AppTest.executor": "Run",
+    "TestNG.AppTest.priceSummTest.executor": "Run",
+    "TestNG.AppTest.test.executor": "Run",
     "TestNG.AppTest.testWildberries.executor": "Run",
+    "TestNG.BaseTest.executor": "Run",
+    "TestNG.BasketTest.executor": "Run",
+    "TestNG.TitleAndPriceProductTest.andPriceProductsTest.executor": "Run",
+    "TestNG.TitleAndPriceProductTest.clickBasketButtonTest.executor": "Run",
+    "TestNG.TitleAndPriceProductTest.executor": "Run",
+    "TestNG.TitleAndPriceProductTest.titleAndPriceProductsTest.executor": "Run",
+    "TestNG.WBTest.chooseItemsFromCatalog.executor": "Run",
+    "TestNG.WBTest.executor": "Run",
     "git-widget-placeholder": "lesson__15",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,42 +98,18 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AppTest.testWildberries">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+  <component name="RunManager" selected="TestNG.TitleAndPriceProductTest.andPriceProductsTest">
+    <configuration name="AddProductToBasketTest.clickBasketButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson_15.Pages" />
-      <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.testWildberries" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA_Java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="testWildberries" />
+      <option name="PACKAGE_NAME" value="pages" />
+      <option name="MAIN_CLASS_NAME" value="pages.AddProductToBasketTest" />
+      <option name="METHOD_NAME" value="clickBasketButtonTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,17 +117,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WildberriesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TitleAndPriceProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson_15.Pages" />
-      <option name="MAIN_CLASS_NAME" value="lesson_15.Pages.WildberriesTest" />
+      <option name="PACKAGE_NAME" value="pages" />
+      <option name="MAIN_CLASS_NAME" value="pages.TitleAndPriceProductTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TitleAndPriceProductTest.andPriceProductsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pages" />
+      <option name="MAIN_CLASS_NAME" value="pages.TitleAndPriceProductTest" />
+      <option name="METHOD_NAME" value="andPriceProductsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TitleAndPriceProductTest.clickBasketButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pages" />
+      <option name="MAIN_CLASS_NAME" value="pages.TitleAndPriceProductTest" />
+      <option name="METHOD_NAME" value="clickBasketButtonTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TitleAndPriceProductTest.titleAndPriceProductsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pages" />
+      <option name="MAIN_CLASS_NAME" value="pages.TitleAndPriceProductTest" />
+      <option name="METHOD_NAME" value="titleAndPriceProductsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -130,18 +190,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AppTest.testWildberries" />
-        <item itemvalue="TestNG.AppTest" />
-        <item itemvalue="TestNG.WildberriesTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.TitleAndPriceProductTest.andPriceProductsTest" />
+        <item itemvalue="TestNG.TitleAndPriceProductTest.clickBasketButtonTest" />
+        <item itemvalue="TestNG.TitleAndPriceProductTest" />
+        <item itemvalue="TestNG.AddProductToBasketTest.clickBasketButtonTest" />
+        <item itemvalue="TestNG.TitleAndPriceProductTest.titleAndPriceProductsTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.158" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.158" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -155,10 +216,23 @@
       <updated>1711223726706</updated>
       <workItem from="1711223729550" duration="303000" />
       <workItem from="1712086301483" duration="2656000" />
+      <workItem from="1712436499608" duration="2859000" />
+      <workItem from="1712439368248" duration="2752000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/AQA_Java/src/test/java/Pages/BasketPage.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
