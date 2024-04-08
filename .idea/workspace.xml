@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6848c2ac-7a3a-4376-918b-c29f9de07fe2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_16/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_16/ApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AQA_Java/target/test-classes/lesson_16/ApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/target/test-classes/lesson_16/ApiTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +44,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ApiTest.checkDeleteTest.executor": "Run",
     "JUnit.ApiTest.checkGetTest.executor": "Run",
     "JUnit.ApiTest.checkPostTest.executor": "Run",
+    "JUnit.ApiTest.checkPutTest.executor": "Run",
     "JUnit.ApiTest.executor": "Run",
     "Maven.AQA_Java [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -58,6 +58,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,19 +71,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ApiTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="AQA_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AQA_Java" />
       <extension name="coverage">
@@ -92,6 +82,22 @@
       <option name="PACKAGE_NAME" value="lesson_16" />
       <option name="MAIN_CLASS_NAME" value="lesson_16.ApiTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.checkDeleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_16" />
+      <option name="MAIN_CLASS_NAME" value="lesson_16.ApiTest" />
+      <option name="METHOD_NAME" value="checkDeleteTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,12 +134,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiTest.checkPutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_16" />
+      <option name="MAIN_CLASS_NAME" value="lesson_16.ApiTest" />
+      <option name="METHOD_NAME" value="checkPutTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ApiTest" />
         <item itemvalue="JUnit.ApiTest.checkGetTest" />
+        <item itemvalue="JUnit.ApiTest.checkDeleteTest" />
+        <item itemvalue="JUnit.ApiTest.checkPutTest" />
         <item itemvalue="JUnit.ApiTest.checkPostTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
