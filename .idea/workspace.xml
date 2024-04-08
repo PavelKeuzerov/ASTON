@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6848c2ac-7a3a-4376-918b-c29f9de07fe2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_16/ApiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AQA_Java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AQA_Java/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_16/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_16/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/target/test-classes/lesson_16/ApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/target/test-classes/lesson_16/ApiTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +46,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ApiTest.checkGetTest.executor": "Run",
+    "JUnit.ApiTest.checkPostTest.executor": "Run",
     "JUnit.ApiTest.executor": "Run",
     "Maven.AQA_Java [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -95,9 +96,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiTest.checkGetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_16" />
+      <option name="MAIN_CLASS_NAME" value="lesson_16.ApiTest" />
+      <option name="METHOD_NAME" value="checkGetTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.checkPostTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_16" />
+      <option name="MAIN_CLASS_NAME" value="lesson_16.ApiTest" />
+      <option name="METHOD_NAME" value="checkPostTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ApiTest" />
+        <item itemvalue="JUnit.ApiTest.checkGetTest" />
+        <item itemvalue="JUnit.ApiTest.checkPostTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

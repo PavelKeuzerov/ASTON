@@ -1,6 +1,7 @@
 package lesson_16;
 
 import io.restassured.http.ContentType;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
@@ -9,6 +10,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class ApiTest {
     @Test
+    @DisplayName("Method testing 'GET'")
     public void checkGetTest() {
         given()
                 .baseUri("https://postman-echo.com")
@@ -27,6 +29,7 @@ public class ApiTest {
     }
 
     @Test
+    @DisplayName("Method testing 'POST'")
     public void checkPostTest() {
         given()
                 .baseUri("https://postman-echo.com")
@@ -48,6 +51,7 @@ public class ApiTest {
     }
 
     @Test
+    @DisplayName("Method testing 'PUT'")
     public void checkPutTest() {
         given()
                 .baseUri("https://postman-echo.com")
@@ -69,6 +73,7 @@ public class ApiTest {
     }
 
     @Test
+    @DisplayName("Method testing 'DELETE'")
     public void checkDeleteTest() {
         given()
                 .baseUri("https://postman-echo.com")
