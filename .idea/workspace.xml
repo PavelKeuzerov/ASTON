@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6848c2ac-7a3a-4376-918b-c29f9de07fe2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_17/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_17/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AQA_Java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_17/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_17/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AppTest.additionTest.executor": "Run",
+    "TestNG.AppTest.executor": "Run",
     "git-widget-placeholder": "lesson__17",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -65,7 +66,7 @@
       <recent name="$PROJECT_DIR$/AQA_Java/src/lesson_13" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.AppTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="AQA_Java" />
@@ -79,8 +80,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_17" />
+      <option name="MAIN_CLASS_NAME" value="lesson_17.AppTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.additionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_17" />
+      <option name="MAIN_CLASS_NAME" value="lesson_17.AppTest" />
+      <option name="METHOD_NAME" value="additionTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AppTest" />
+        <item itemvalue="TestNG.AppTest.additionTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -104,6 +142,8 @@
       <workItem from="1711223729550" duration="303000" />
       <workItem from="1712673789879" duration="4484000" />
       <workItem from="1712693165912" duration="3533000" />
+      <workItem from="1712738691092" duration="2000" />
+      <workItem from="1712756676795" duration="3329000" />
     </task>
     <servers />
   </component>
