@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6848c2ac-7a3a-4376-918b-c29f9de07fe2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_17/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AQA_Java/src/test/resources/allure.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_17/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_17/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_17/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_18/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_17/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_18/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/src/test/java/lesson_17/video_test/lesson_17.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/target/test-classes/lesson_17/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AQA_Java/target/test-classes/lesson_17/BaseTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson_13" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,11 +52,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.AQA_Java [clean].executor": "Run",
+    "Maven.AQA_Java [io.qameta.allure:allure-maven:2.12.0:aggregate].executor": "Run",
+    "Maven.AQA_Java [io.qameta.allure:allure-maven:2.12.0:bulk].executor": "Run",
+    "Maven.AQA_Java [io.qameta.allure:allure-maven:2.12.0:install].executor": "Run",
+    "Maven.AQA_Java [io.qameta.allure:allure-maven:2.12.0:report].executor": "Run",
+    "Maven.AQA_Java [io.qameta.allure:allure-maven:2.12.0:serve].executor": "Run",
+    "Maven.AQA_Java [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.AQA_Java [test].executor": "Run",
+    "Maven.AQA_Java [verify].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.AppTest.additionTest.executor": "Run",
     "TestNG.AppTest.executor": "Run",
-    "git-widget-placeholder": "lesson__17",
+    "TestNG.AppTest.multiplicationTest.executor": "Run",
+    "TestNG.AppTest.subtractionTest.executor": "Run",
+    "git-widget-placeholder": "lesson__18",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,12 +101,12 @@
       <module name="AQA_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson_17.*" />
+          <option name="PATTERN" value="lesson_18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lesson_17" />
-      <option name="MAIN_CLASS_NAME" value="lesson_17.AppTest" />
+      <option name="MAIN_CLASS_NAME" value="lesson_18.AppTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -101,13 +118,49 @@
       <module name="AQA_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson_17.*" />
+          <option name="PATTERN" value="lesson_18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lesson_17" />
-      <option name="MAIN_CLASS_NAME" value="lesson_17.AppTest" />
+      <option name="MAIN_CLASS_NAME" value="lesson_18.AppTest" />
       <option name="METHOD_NAME" value="additionTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.multiplicationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_17" />
+      <option name="MAIN_CLASS_NAME" value="lesson_18.AppTest" />
+      <option name="METHOD_NAME" value="multiplicationTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.subtractionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_18" />
+      <option name="MAIN_CLASS_NAME" value="lesson_18.AppTest" />
+      <option name="METHOD_NAME" value="subtractionTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -118,7 +171,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.AppTest" />
+        <item itemvalue="TestNG.AppTest.subtractionTest" />
         <item itemvalue="TestNG.AppTest.additionTest" />
+        <item itemvalue="TestNG.AppTest.multiplicationTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
